@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content="GitLab Pages" />
+		<title>John Doe | Web Developer Portfolio</title>
+
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+			integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+			crossorigin="anonymous"
+		/>
+
+		<!-- external css -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#portfolio-nav"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="portfolio-nav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active">
+						<a href="#landing" class="nav-link"> Home </a>
+					</li>
+					<li class="nav-item active">
+						<a href="#gallery" class="nav-link"> Gallery </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- creates a wrapper/container for our layout -->
+		<div class="container-fluid">
+			<section class="jumbotron text-center mt-5" id="landing">
+				<h1>Full Stack Web Developer</h1>
+				<p>Hi! My name is John and I love building things from scratch.</p>
+				<img id="profile" src="images/mf-avatar.svg" class="img-fluid" />
+			</section>
+			<!-- end landing -->
+
+			<section id="gallery" class="text-center bg-dark">
+				<div class="tools">
+					<h2>Languages I Speak</h2>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+					</ul>
+				</div>
+				<div class="tools">
+					<h2>Dev Tools</h2>
+					<ul>
+						<li>Terminal</li>
+						<li>Gitbash</li>
+						<li>Sublime Text</li>
+						<li>Gitlab</li>
+					</ul>
+				</div>
+			</section>
+			<!-- end gallery -->
+		</div>
+
+		<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
