@@ -112,7 +112,7 @@ The `HTML` document is considered the building blocks/foundation of websites. Al
 	<ul>
 		<li>Git Bash / Terminal</li>
 		<li>Sublime Text</li>
-		<li>Gitlab</li>
+		<li>Github</li>
 		<li>Google Chrome</li>
 	</ul>
 </section>
@@ -186,7 +186,7 @@ Bootstrap will enable us to develop mobile responsive layouts faster compared to
   	<!-- Required meta tags -->
   	<meta charset="utf-8" />
   	<meta name="viewport" content="width=device-width, initial-scale=1" />
-  	<meta name="generator" content="GitLab Pages" />
+  	<meta name="generator" content="Github Pages" />
   	<title>John Doe | Web Developer Portfolio</title>
 
   	<!-- Google Fonts -->
@@ -313,7 +313,7 @@ Bootstrap will enable us to develop mobile responsive layouts faster compared to
 		<li>Terminal</li>
 		<li>Gitbash</li>
 		<li>Sublime Text</li>
-		<li>Gitlab</li>
+		<li>Github</li>
 	</ul>
 </section>
 <!-- /#gallery -->
