@@ -25,6 +25,7 @@
 ### Build the Skeleton of the Web Developer Portfolio
 
 The `HTML` document is considered the building blocks/foundation of websites. All styling will be placed inside a separate stylesheet called a `CSS` file. We will use the text editor called `Sublime Text` to write our code.
+
 - Double click on the `index.html` file.
 - Go inside the `index.html` tab and change the value of the `<title>` to `"John Doe | Web Developer Portfolio"`
 
@@ -64,8 +65,8 @@ The `HTML` document is considered the building blocks/foundation of websites. Al
 </section>
 ```
 
-- let's add a profile picture. inisde the `public` folder, create a folder called `images`.
-- Download an image of yourself and place it inside your `fcc-portfolio > public > images` folder.  
+- let's add a profile picture.
+- Download an image of yourself and place it inside your `fcb-portfolio > images` folder.  
   As much as possible, make sure the that size of the `height` and `width` of the image are equal.  
   If not, at least the image is almost square in shape.
 
@@ -455,6 +456,7 @@ html {
 ```
 
 ### Deploy the LIVE Web Developer Portfolio in Github Pages
+
 In your machines, go to your Documents folder and right click on it
 
 - For Windows users, select `Git Bash` Here from the options
@@ -469,10 +471,13 @@ In your machines, go to your Documents folder and right click on it
 1. Inside your `Documents` folder, go inside your project folder called `fcb-portfolio` by executing the command `cd fcb-portfolio`
 
 #### Create a new `git` commit
+
 - Inside the fcbportfolio folder, run the git init command. This will initialize Git to our project folder.
- ```bash
-  $ git init
-  ```
+
+```bash
+ $ git init
+```
+
 - Check the status of project's working directory.
   ```bash
   $ git status
@@ -487,21 +492,21 @@ In your machines, go to your Documents folder and right click on it
   ```
 
 #### Add a remote repository
+
 - Do not close your Terminal. Go to Github(https://www.github.com) and Login using your registered email.
-![images/gh.png](images/gh.png)
+  ![images/gh.png](images/gh.png)
 
 - Once logged in, click on the `New Repository` button or the `Start a Project` button
-![images/dash.png](images/dash.png)
+  ![images/dash.png](images/dash.png)
 
 - Name your remote project/repository as `fcbportfolio`. Leave the Permission to `Public` and click on Create Repository.
-![images/repo.png](images/repo.png)
+  ![images/repo.png](images/repo.png)
 
 - Copy the `HTTPS URL` of your new project
-![images/url.png](images/url.png)
+  ![images/url.png](images/url.png)
 
 - Go back to the Terminal and run the command `git remote add github <paste the HTTPS URL from your Github repository>`
-![images/remote.png](images/remote.png)
-
+  ![images/remote.png](images/remote.png)
 
 #### Push all commits to a remote `git` repository
 
@@ -510,6 +515,7 @@ In your machines, go to your Documents folder and right click on it
   $ git remote -v
   ```
 - Push to target remote `git` repository.
+
   ````bash
   	$ git push <remote> <branch>
   	$ git push github master
