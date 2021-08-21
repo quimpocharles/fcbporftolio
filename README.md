@@ -530,4 +530,36 @@ In your machines, go to your Documents folder and right click on it
   Doing this will deploy the project and will create a new link.  
   ![Project Link](./images/link.png)
 
+### As of August 13, 2021, Github has removed simple username/password authentication. 
+
+[Github Blog](https://github.blog/changelog/2021-08-12-git-password-authentication-is-shutting-down/)
+
+## Instead, we have to create a personal access token:
+
+	Go to your github profile and select settings.
+
+	Then, in your settings, scroll down to the left pane and select developer settings.
+
+	Then, in developer settings, select Personal Access Tokens.
+
+	Then, add your note and expiration date:
+
+![Source](./images/noteAndExpiration.png)
+
+	Then, generate new token with the following scopes checked:
+
+		repo 
+		repo:status 
+		repo_deployment 
+		public_repo 
+		repo:invite 
+		security_events 
+		read:repo_hook 
+		delete_repo
+
+![Source](./images/scope1.png)
+![Source](./images/scope2.png)
+
+	Then, generate your token and use the token as the password instead.
+
 #### The End
